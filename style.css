@@ -14,7 +14,7 @@ body {
 #gallery img {
     max-width: 150px;
     margin: 10px;
-    border: 1px solid #b32424;
+    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
 }
