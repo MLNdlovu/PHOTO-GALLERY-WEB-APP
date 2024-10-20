@@ -1,7 +1,7 @@
 /* Custom styles for the Photo Gallery Web App */
 
 .art-gallery {
-  background: linear-gradient(135deg, #71008582, #3b0045);
+  background: linear-gradient(135deg, #000000, #000000);
   padding: 20px;
   border-radius: 20px;
 }
@@ -16,13 +16,13 @@
 
 @keyframes float {
   0% {
-    transform: perspective(500px) rotateX(30deg) rotateY(-10deg) translateY(0);
+    transform: perspective(500px) translateY(0);
   }
   50% {
-    transform: perspective(500px) rotateX(30deg) rotateY(-10deg) translateY(-10px);
+    transform: perspective(500px) translateY(-10px);
   }
   100% {
-    transform: perspective(500px) rotateX(30deg) rotateY(-10deg) translateY(0);
+    transform: perspective(500px) translateY(0);
   }
 }
 
@@ -56,19 +56,19 @@
 }
 
 .placeholder div {
-  color: #6200ea;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .card {
   border: none;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
 .btn-outline-primary {
-  color: #6200ea;
-  border-color: #6200ea;
+  color: #ea0000;
+  border-color: #ff0000;
 }
 
 .btn-outline-primary:hover {
